@@ -9,12 +9,11 @@
 	font-style: normal;
 }
 
-body.filevskoe-page {
-    /*background: url(../images/bg_2.jpg);*/
+body.dedmoroz-page {
+    background-color: #fcfabf;
     background-position-x: center;
 }
-
-.filevskoe-page .read-all {
+.dedmoroz-page .read-all {
     text-align: center;
     margin-top: 30px;
     margin-right: 0;
@@ -25,17 +24,49 @@ body.filevskoe-page {
 }
 
 .rev-brand-wrap {
-    background: url(../images/filevskoe_02.jpg) left top, 
-                url(../images/filevskoe_05.jpg) right bottom;
+    /*background: url(../images/ded-moroz-reviews-tm.jpg) center top;
     background-repeat: no-repeat;
+    */
+}
+
+#eskimo_bg {
+    background: url(../images/eskimo_bg.png) no-repeat;
+    position: absolute;
+    top: 150px;
+    left: -15%;
+    width: 537px;
+    height: 612px;
+    background-position: 0px 0px;
+    z-index: 1;
+}
+
+#briket_bg {
+    background: url(../images/briket_bg.png) no-repeat;
+    position: absolute;
+    top: 44px;
+    right: 0%;
+    width: 537px;
+    height: 612px;
+    background-position: 80px 10px;
+    z-index: 1;
 }
 
 #toppage {
     margin-bottom: 0px;
 }
 
-.vologda-plombir-slid {
-    background: url(../images/video/slid_vp_1.jpg);
+.dedmoroz-slid {
+    max-height: 1080px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    text-align: center;
+    background-size: cover !important;
+}
+
+.dedmoroz-slid {
+    background: url(../images/video/slid_dm.jpg);
     background-position: 50% 0%; text-align: center;
 }
 
@@ -72,7 +103,7 @@ body.filevskoe-page {
 }
 
 .brand-reviews {
-    margin-top: 4rem;
+    margin-top: 0rem;
     margin-bottom: 0rem;
 }
 
@@ -85,13 +116,19 @@ body.filevskoe-page {
     font-weight: bold;
 }
 
-.assortment {
-    background: url(../images/filevskoe_bg.jpg) center top;
+.dedmoroz-page .assortment {
+    background: url(../images/ded-moroz_09.jpg) left top no-repeat, 
+                url(../images/ded-moroz_07.jpg) right top no-repeat;
     padding: 4.5em 0 1.5em;
-    background-size: cover;
 }
 
-.filevskoe-page .assortment .positions-wrap .container-fluid {
+#where_buy {
+    background: url(../images/ded-moroz-2.jpg) center bottom no-repeat;
+    padding: 4.5em 0 1.5em;
+    margin-bottom: 0;
+}
+
+.dedmoroz-page .assortment .positions-wrap .container-fluid {
     /*padding-left: 0;
     padding-right: 0;
     max-width: 100%;*/
@@ -110,23 +147,23 @@ body.filevskoe-page {
 }
 
 .assortment .read-more.news,
-.filevskoe-page #where_buy .read-more.news,
-.filevskoe-page .new_items_and_news .read-more.news {
+.dedmoroz-page #where_buy .read-more.news,
+.dedmoroz-page .new_items_and_news .read-more.news {
     margin-right: 1.5em;
     padding: 9px 13px 14px 20px;
     border: 1px solid white;
     z-index: 1;
 }
 
-.filevskoe-page .new_items_and_news .read-more {
+.dedmoroz-page .new_items_and_news .read-more {
     margin-right: 0 !important;
 }
 
-.filevskoe-page #where_buy .read-more.news {
+.dedmoroz-page #where_buy .read-more.news {
     background: #fff;
 }
 
-.filevskoe-page #where_buy .read-more.news {
+.dedmoroz-page #where_buy .read-more.news {
     margin: 0 auto;
     
 }
@@ -138,12 +175,12 @@ body.filevskoe-page {
 .assortment .read-more.news:hover,
 .assortment .read-more.news:focus,
 .assortment .read-more.news.active,
-.filevskoe-page #where_buy .read-more.news:hover,
-.filevskoe-page #where_buy .read-more.news:focus,
-.filevskoe-page #where_buy .read-more.news.active,
-.filevskoe-page .new_items_and_news .read-more.news:hover,
-.filevskoe-page .new_items_and_news .read-more.news:focus,
-.filevskoe-page .new_items_and_news .read-more.news.active {
+.dedmoroz-page #where_buy .read-more.news:hover,
+.dedmoroz-page #where_buy .read-more.news:focus,
+.dedmoroz-page #where_buy .read-more.news.active,
+.dedmoroz-page .new_items_and_news .read-more.news:hover,
+.dedmoroz-page .new_items_and_news .read-more.news:focus,
+.dedmoroz-page .new_items_and_news .read-more.news.active {
     border-color: #fe4f60;
     background: #e31a4d;
 }
@@ -167,7 +204,7 @@ body.filevskoe-page {
     color: #d4cccc;
 }
 
-.filevskoe-page h3 {
+.dedmoroz-page h3 {
     font-family: 'Conv_AGFRIQB',Sans-Serif;
     font-size: 2.5em;
     font-weight: lighter;
@@ -182,7 +219,7 @@ body.filevskoe-page {
     margin-bottom: 0;
 }
 
-.filevskoe-page h3::after {
+.dedmoroz-page h3::after {
     display: none;
 }
 
@@ -190,17 +227,17 @@ body.filevskoe-page {
     max-width: 100%;
 }
 
-.filevskoe-page .map {
+.dedmoroz-page .map {
     background: url(../images/map.png) no-repeat center -30px;
     height: 570px;
     background-size: contain;
 }
 
-.filevskoe-page #where_buy h3 {
+.dedmoroz-page #where_buy h3 {
     margin: 15px 0 60px;
 }
 
-.filevskoe-page #news_wrapper h3 {
+.dedmoroz-page #news_wrapper h3 {
     margin: 65px 0 60px;
 }
 
@@ -317,9 +354,10 @@ body.filevskoe-page {
 
     #where_buy {
         margin-bottom: 3rem;
+        background: none;
     }
 
-    .filevskoe-page .map {
+    .dedmoroz-page .map {
         height: 450px;
     }
 }
@@ -343,7 +381,7 @@ body.filevskoe-page {
         text-align: center;
     }
 
-    .filevskoe-page .map {
+    .dedmoroz-page .map {
         height: 250px;
         padding-top: 14rem;
     }
